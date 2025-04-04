@@ -1,0 +1,17 @@
+{
+  "name": "pdf-text-extractor",
+  "version": "1.0.0",
+  "description": "A Node.js tool to extract text from PDF files",
+  "main": "pdf-extractor.js",
+  "scripts": {
+    "start": "node index.js",
+    "extract": "node index.js"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0",
+    "pdfjs-dist": "^2.16.105"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
